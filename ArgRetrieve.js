@@ -12,4 +12,8 @@ export function regArgRetrieveFuncs() {
     	var val = document.getAllArgs()[index];
     	return val;
     }
+    
+    document.getArgByName = function(name) {
+        console.log("Not implemented.");
+    }
 }
