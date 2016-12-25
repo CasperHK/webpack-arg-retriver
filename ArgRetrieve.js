@@ -16,7 +16,6 @@ export function regArgRetrieveFuncs() {
         return eles.length;
     }
     
-    
     // 
     document.lenOfArgsWithStr = function(string) {
         console.log("Not implemented.");
