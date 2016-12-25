@@ -12,7 +12,8 @@ export function regArgRetrieveFuncs() {
     
     //
     document.lenOfArgs = function() {
-        console.log("Not implemented.");
+        var eles = document.querySelectorAll('[id^="args::"]');
+        return eles.length;
     }
     
     
