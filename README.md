@@ -1,4 +1,4 @@
-# webpack-arg-retriver
+# Webpack Argument Retriver
 This is a library for handling argument retrieving in an Webpack application.
 
 <br/>
