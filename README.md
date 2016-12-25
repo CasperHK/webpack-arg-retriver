@@ -7,7 +7,7 @@ This is a library for handling argument retrieving in an Webpack application.
 To use this library, you should print the HTML file in server side like the following format.
 ```html
 <body>
-<!-- <input id="file-path" type="hidden" value="/asdf"/> -->
+<!-- Args -->
 <input id="args::file-path" type="hidden" value="/asdf"/>
 <input id="args::authors" type="hidden" value="casper,tom,cat,mary"/>  
 
