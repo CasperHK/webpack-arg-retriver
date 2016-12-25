@@ -27,7 +27,7 @@ import AppMain from 'app/AppMain';
 import {regArgRetrieveFuncs} from 'components/ArgRetrieve'; regArgRetrieveFuncs(); 
 ```
 
-Finally, retrieve the args.
+Finally, retrieve the arguments anywhere in your application.
 ```js
 console.log(document.getAllArgs());
 console.log(document.getArgByName("file-path"));  // "/asdf"
