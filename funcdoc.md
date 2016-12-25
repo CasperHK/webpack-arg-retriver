@@ -14,7 +14,7 @@ console.log(res);
 ## lenOfArgs
 Example:
 ```js
-var res = document.getAllArgs();
+var res = document.lenOfArgs();
 console.log(res);
 ```
 
@@ -23,7 +23,7 @@ console.log(res);
 ## lenOfArgsWithStr
 Example:
 ```js
-var res = document.getAllArgs();
+var res = document.lenOfArgsWithStr();
 console.log(res);
 ```
 
@@ -32,7 +32,7 @@ console.log(res);
 ## getArgByIndex
 Example:
 ```js
-var res = document.getAllArgs();
+var res = document.getArgByIndex();
 console.log(res);
 ```
 
@@ -41,7 +41,7 @@ console.log(res);
 ## getArgByName
 Example:
 ```js
-var res = document.getAllArgs();
+var res = document.getArgByName();
 console.log(res);
 ```
 
@@ -50,7 +50,7 @@ console.log(res);
 ## getAllArgsByName
 Example:
 ```js
-var res = document.getAllArgs();
+var res = document.getAllArgsByName();
 console.log(res);
 ```
 
