@@ -1,6 +1,16 @@
 export function regArgRetrieveFuncs() {
     
     //
+    document.getAllArgs = function() {
+    	var eles = document.querySelectorAll('[id^="args::"]');
+    	var args = [];
+    	for (var i=0; i<eles.length; i++) {
+    		args[i] = eles[i].value.split(",");
+    	}
+    	return args;
+    }
+    
+    //
     document.lenOfArgs = function() {
         console.log("Not implemented.");
     }
@@ -9,17 +19,6 @@ export function regArgRetrieveFuncs() {
     // 
     document.lenOfArgsWithStr = function(string) {
         console.log("Not implemented.");
-    }
-    
-    
-    //
-    document.getAllArgs = function() {
-    	var eles = document.querySelectorAll('[id^="args::"]');
-    	var args = [];
-    	for (var i=0; i<eles.length; i++) {
-    		args[i] = eles[i].value.split(",");
-    	}
-    	return args;
     }
 
     //
@@ -34,7 +33,7 @@ export function regArgRetrieveFuncs() {
     }
     
     //
-    document.getAllArgByName = function(name) {
+    document.getAllArgsByName = function(name) {
         console.log("Not implemented.");
     }   
     
