@@ -30,4 +30,6 @@ import {regArgRetrieveFuncs} from 'components/ArgRetrieve'; regArgRetrieveFuncs(
 Finally, retrieve the args.
 ```js
 console.log(document.getAllArgs());
+console.log(document.getArgByName("file-path"));  // "/asdf"
+console.log(document.getArgByIndex(1));           // ["casper", "tom", "cat", "mary"]
 ```
